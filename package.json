@@ -1,0 +1,24 @@
+{
+  "name": "simple-node-server",
+  "version": "0.0.1",
+  "description": "basic http server with node",
+  "main": "server.js",
+  "scripts": {
+    "test": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/macikokoro/simple-node-server.git"
+  },
+  "keywords": [
+    "simple",
+    "node",
+    "server"
+  ],
+  "author": "JQ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/macikokoro/simple-node-server/issues"
+  },
+  "homepage": "https://github.com/macikokoro/simple-node-server"
+}

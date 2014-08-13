@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    body {
+      text-align: center;
+      background-color: rgba(200, 171, 128, 0.5);
+      margin: 0 auto;
+      width: 600px;
+      }
+
+    h1 {
+      text-transform: uppercase;
+      font-family: futura;
+    }
+
+    form {
+      width: 410px;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 20px;
+      text-align: justify;
+      background-color: rgba(219, 189, 110, 1);
+    }
+
+    label {
+      display: block;
+      margin-top: 24px;
+      letter-spacing: 4px;
+    }
+
+    input, textarea {
+      width: 380px;
+      height: 30px;
+      padding: 10px;
+      margin-top: 4px;
+      padding: 10px;
+    }
+
+    #submit {
+      width: 120px;
+    }
+
+    </style>
+    <meta charser="UTF-8">
+    <title>Simple Node Server</title>
+  </head>
+  <body>
+    <h1>Serving an html file</br>using readFile method</h1>
+  <section>
+    <h2>Form</h2>
+      <form>
+
+          <label>Name</label>
+          <input name="name" placeholder="Type Here">
+
+          <label>Email</label>
+          <input name="email" type="email" placeholder="Type Here">
+
+          <label>Message</label>
+          <textarea name="message" placeholder="Type Here"></textarea>
+
+          <input id="submit" name="submit" type="submit" value="Submit">
+
+      </form>
+  </section>
+  </body>
+</html>
